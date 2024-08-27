@@ -1,13 +1,13 @@
 class Motor:
-    def start():
-        return "Motor encendido"
+    def start(self):
+        return ("Motor encendido")
     
 class Coche:
     def __init__(self, motor):
         self.motor = motor
         
     def arrancar(self):
-        print(self.motor)
+        print(self.motor.start())
 
 motor = Motor()
 coche = Coche(motor)
