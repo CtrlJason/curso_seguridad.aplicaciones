@@ -1,5 +1,5 @@
 import unittest
-from mi_proyecto.dominio import Tarea
+from ..mi_proyecto.dominio import Tarea
 
 class TestTarea(unittest.TestCase):
     def test_crear_tarea(self):
